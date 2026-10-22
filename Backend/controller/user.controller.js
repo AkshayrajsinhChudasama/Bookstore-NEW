@@ -2,6 +2,7 @@ import Contact from "../model/contact.model.js";
 import User from "../model/user.model.js";
 import bcryptjs from "bcryptjs";
 
+
 export const signup = async(req, res) => {
     try {
         const { fullname, email, password } = req.body;

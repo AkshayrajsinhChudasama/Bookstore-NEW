@@ -6,3 +6,5 @@ router.post("/signup", signup);
 router.post("/login", login);
 router.post('/contact',contact);
 export default router;
+
+
